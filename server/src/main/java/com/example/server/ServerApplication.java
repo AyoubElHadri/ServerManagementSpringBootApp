@@ -30,7 +30,7 @@ public class ServerApplication {
 					"http://localhost:8080/server/image/server2.png", Status.SERVER_DOWN));
 			repository.save(new Server(null,"192.168.1.1", "MS 2008", "32 GB", "Web Server",
 					"http://localhost:8080/server/image/server3.png", Status.SERVER_UP));
-			repository.save(new Server(null,"192,168,1,14", "Red Hat Entreprise  Linux", "64 GB", "Mail Server",
+			repository.save(new Server(null,"192,168,1,14", "RedHat Entreprise  Linux", "64 GB", "Mail Server",
 					"http://localhost:8080/server/image/server4.png", Status.SERVER_DOWN));
 	};
 		}
