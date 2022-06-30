@@ -24,7 +24,7 @@ public class ServerApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(ServerRepository repository) {
 		return args -> {
-			repository.save(new Server(null,"192.168.1.12", "Ubunti Linux", "16 GB", "Personal PC",
+			repository.save(new Server(null,"192.168.11.102", "Windows", "16 GB", "Personal PC",
 				"http://localhost:8080/server/image/server1.png", Status.SERVER_UP));
 			repository.save(new Server(null,"192.168.1.58", "Fedra Linux", "16 GB", "Dell Tower",
 					"http://localhost:8080/server/image/server2.png", Status.SERVER_DOWN));
